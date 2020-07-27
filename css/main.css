@@ -1,0 +1,186 @@
+@charset "utf-8";
+
+#container{}
+
+/*메인슬라이더*/
+
+.main_slider{
+    height:480px;
+    position:relative;
+    overflow:hidden;
+}
+.main_slider img{
+    position:absolute;
+    left:50%;
+    margin-left:-960px;
+    
+}
+
+/*메인콘텐츠*/
+
+.main_con01{
+    margin-top:50px;
+}
+
+.con01 {
+    float:left;
+    width:205px;
+    margin-right:35px;
+}
+
+.menu01
+.menu01 h4{}
+.menu01 a{}
+
+.menu02{
+    width:460px;
+}
+.menu02 h4{}
+.menu02 p{
+    font-size:12px;
+    color:#777;
+    margin:10px 0;
+}
+.menu02 ul{}
+.menu02 ul li{
+    float:left;
+    margin:30px 0;
+    background:url(../images/mall_bar01.gif) no-repeat;
+     
+}
+.menu02 ul li:first-child{
+    background:none;
+}
+
+
+.menu02 ul li p{
+    text-align:center;
+}
+.menu02 ul li img{
+    padding:0 30px;
+}
+
+
+.menu03{
+    margin-right:0;
+}
+.menu03 h4{}
+.menu03 a{}
+
+/*메인콘텐츠02*/
+
+.main_con02{}
+
+.main_con02 ul{}
+.main_con02 li{
+    float:left;
+}
+.main_con02 a{}
+.main_con02 img{}
+
+/*메인콘텐츠03*/
+
+.main_con03{
+    padding:30px 0;
+    border-bottom:2px solid #D41622;
+    
+}
+
+.con03{
+    float:left;
+    width:205px;
+    margin-right:35px;
+    font-size:12px;
+    color:#777;
+}
+
+
+.con03 h3{}
+.con03 p{
+    margin:10px 0;
+}
+.con03 a{
+    color:#777;
+}
+.con03 a img{
+    vertical-align:top;
+}
+
+.con03 ul{
+    position:relative;
+    margin-top:10px;
+}
+
+.con03 ul li{
+    line-height:15px;
+}
+.con03 ul li a{    
+    width:150px;
+    display:inline-block;
+    white-space:nowrap;    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.con03 ul li span{
+    position:absolute;
+    right:0;
+}
+
+.news h3{
+    display: inline-block;
+}
+
+
+.quick_menu{
+    padding:30px 0;
+    margin-right:0;
+}
+.quick_menu li{
+    float:left;
+    background:url(../images/mall_bar01.gif) no-repeat ;
+    padding:0 6px;
+    
+}
+.quick_menu li:first-child{
+    background:none;
+}
+.quick_menu li a{}
+.quick_menu li a img{
+    display:block;
+    margin:0 auto;
+}
+
+
+/*main_con04*/
+
+.main_con04{
+    padding:30px 0;
+}
+.main_con04 h3{
+    display:inline-block;
+    margin-bottom:30px;
+}
+.main_con04 a{}
+
+.con04{
+    font-size:12px;
+}
+.con04 li{
+    width:205px;
+    float:left;
+    margin-right:35px;
+    background:url(../images/48_48.png) no-repeat left center;
+    padding-left:60px;
+    box-sizing:border-box;
+}
+.con04 li:hover a{
+    text-decoration:underline;
+
+}
+
+.con04 li:last-child{
+    margin-right:0;
+}
+.con04 li p{
+    color:skyblue;
+}
